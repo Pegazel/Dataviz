@@ -1,0 +1,600 @@
+[
+  {
+    "year": 2000,
+    "ecuries" : [
+      {
+        "rank":2,
+        "name":"McLaren",
+        "points":152,
+        "pilote1": "Mika Häkkinen",
+        "pilote2": "David Coulthard"
+      },
+      {
+        "rank":1,
+        "name":"Ferrari",
+        "points":170,
+        "pilote1": "Michael Schumacher",
+        "pilote2": "Rubens Barrichello"
+      },
+      {
+        "rank":3,
+        "name":"Williams",
+        "points":36,
+        "pilote1": "Ralf Schumacher",
+        "pilote2": "Jenson Button"
+      }
+    ]
+  },
+  {
+    "year": 2001,
+    "ecuries" : [
+      {
+        "rank":2,
+        "name":"McLaren",
+        "points":102,
+        "pilote1": "Mika Häkkinen",
+        "pilote2": "David Coulthard"
+      },
+      {
+        "rank":1,
+        "name":"Ferrari",
+        "points":179,
+        "pilote1": "Michael Schumacher",
+        "pilote2": "Rubens Barrichello"
+      },
+      {
+        "rank":3,
+        "name":"Williams",
+        "points":80,
+        "pilote1": "Ralf Schumacher",
+        "pilote2": " Juan Pablo Montoya"
+      }
+    ]
+  },
+  {
+    "year": 2002,
+    "ecuries" : [
+      {
+        "rank":2,
+        "name":"Williams",
+        "points":92,
+        "pilote1": "Ralf Schumacher",
+        "pilote2": " Juan Pablo Montoya"
+      },
+      {
+        "name":"Ferrari",
+        "rank":1,
+        "points":221,
+        "pilote1": "Michael Schumacher",
+        "pilote2": "Rubens Barrichello"
+      },
+      {
+        "rank":3,
+        "name":"McLaren",
+        "points":65,
+        "pilote1": "Kimi Räikkönen",
+        "pilote2": "David Coulthard"
+      }
+    ]
+  },
+  {
+    "year": 2003,
+    "ecuries" : [
+      {
+        "rank":2,
+        "name":"Williams",
+        "points":144,
+        "pilote1": "Ralf Schumacher",
+        "pilote2": " Juan Pablo Montoya"
+      },
+      {
+        "rank":1,
+        "name":"Ferrari",
+        "points":158,
+        "pilote1": "Michael Schumacher",
+        "pilote2": "Rubens Barrichello"
+      },
+      {
+        "rank":3,
+        "name":"McLaren",
+        "points":142,
+        "pilote1": "Kimi Räikkönen",
+        "pilote2": "David Coulthard"
+      }
+    ]
+  },
+  {
+    "year": 2004,
+    "ecuries" : [
+      {
+        "rank":2,
+        "name":"Honda",
+        "points":119,
+        "pilote1": "Jenson Button",
+        "pilote2": "Takuma Satō"
+      },
+      {
+        "rank":1,
+        "name":"Ferrari",
+        "points":262,
+        "pilote1": "Michael Schumacher",
+        "pilote2": "Rubens Barrichello"
+      },
+      {
+        "rank":3,
+        "name":"Renault",
+        "points":105,
+        "pilote1": "Fernando Alonso",
+        "pilote2": "Jarno Trulli"
+      }
+    ]
+  },
+  {
+    "year":2005,
+    "ecuries" : [
+      {
+        "rank":2,
+        "name":"McLaren",
+        "points":182,
+        "pilote1": "Kimi Räikkönen",
+        "pilote2": "Juan Pablo Montoya"
+      },
+      {
+        "rank":1,
+        "name":"Renault",
+        "points":191,
+        "pilote1": "Fernando Alonso",
+        "pilote2": "Giancarlo Fisichella"
+      },
+      {
+        "rank":3,
+        "name":"Ferrari",
+        "points":100,
+        "pilote1": "Michael Schumacher",
+        "pilote2": "Rubens Barrichello"
+      }
+    ]
+  },
+  {
+    "year": 2006,
+    "ecuries" : [
+      {
+        "rank":2,
+        "name":"Ferrari",
+        "points":201,
+        "pilote1": "Michael Schumacher",
+        "pilote2": "Felipe Massa"
+      },
+      {
+        "rank":1,
+        "name":"Renault",
+        "points":206,
+        "pilote1": "Fernando Alonso",
+        "pilote2": "Giancarlo Fisichella"
+      },
+      {
+        "rank":3,
+        "name":"McLaren",
+        "points":110,
+        "pilote1": "Kimi Räikkönen",
+        "pilote2": "Juan Pablo Montoya"
+      }
+    ]
+  },
+  {
+    "year": 2007,
+    "ecuries" : [
+      {
+        "rank":2,
+        "name":"BMW Sauber",
+        "points":101,
+        "pilote1": "Nick Heidfeld",
+        "pilote2": "Robert Kubica"
+      },
+      {
+        "rank":1,
+        "name":"Ferrari",
+        "points":204,
+        "pilote1": "Felipe Massa",
+        "pilote2": "Kimi Räikkönen"
+      },
+      {
+        "rank":3,
+        "name":"Renault",
+        "points":51,
+        "pilote1": "Heikki Kovalainen",
+        "pilote2": "Giancarlo Fisichella"
+      }
+    ]
+  },
+  {
+    "year": 2008,
+    "ecuries" : [
+      {
+        "rank":2,
+        "name":"McLaren",
+        "points":151,
+        "pilote1": "Lewis Hamilton",
+        "pilote2": "Heikki Kovalainen"
+      },
+      {
+        "rank":1,
+        "name":"Ferrari",
+        "points":172,
+        "pilote1": "Felipe Massa",
+        "pilote2": "Kimi Räikkönen"
+      },
+      {
+        "rank":3,
+        "name":"BMW Sauber",
+        "points":135,
+        "pilote1": "Nick Heidfeld",
+        "pilote2": "Robert Kubica"
+      }
+    ]
+  },
+  {
+    "year": 2009,
+    "ecuries" : [
+      {
+        "rank":2,
+        "name":"Red Bull",
+        "points":153.5,
+        "pilote1": "Sebastian Vettel",
+        "pilote2": "Mark Webber"
+      },
+      {
+        "rank":1,
+        "name":"Brawn",
+        "points":172,
+        "pilote1": "Rubens Barrichello",
+        "pilote2": "Jenson Button"
+      },
+      {
+        "rank":3,
+        "name":"McLaren",
+        "points":71,
+        "pilote1": "Lewis Hamilton",
+        "pilote2": "Heikki Kovalainen"
+      }
+    ]
+  },
+  {
+    "year": 2010,
+    "ecuries" : [
+      {        
+        "rank":2,
+        "name":"McLaren",
+        "points":454,
+        "pilote1": "Lewis Hamilton",
+        "pilote2": "Jenson Button"
+      },
+      {
+        "rank":1,
+        "name":"Reb Bull",
+        "points":498,
+        "pilote1": "Sebastian Vettel",
+        "pilote2": "Mark Webber"
+      },
+      {
+        "rank":3,
+        "name":"Ferrari",
+        "points":396,
+        "pilote1": "Felipe Massa",
+        "pilote2": "Fernando Alonso"
+      }
+    ]
+  },
+  {
+    "year": 2011,
+    "ecuries" : [
+      {
+        "rank":2,
+        "name":"McLaren",
+        "points":497,
+        "pilote1": "Lewis Hamilton",
+        "pilote2": "Jenson Button"
+      },
+      {
+        "rank":1,
+        "name":"Red Bull",
+        "points": 650,
+        "pilote1": "Sebastian Vettel",
+        "pilote2": "Mark Webber"
+      },
+      {
+        "rank":3,
+        "name":"Ferrari",
+        "points":375,
+        "pilote1": "Felipe Massa",
+        "pilote2": "Fernando Alonso"
+      }
+    ]
+  },
+  {
+    "year": 2012,
+    "ecuries" : [
+      {
+        "rank":2,
+        "name":"Ferrari",
+        "points":400,
+        "pilote1": "Felipe Massa",
+        "pilote2": "Fernando Alonso"
+      },
+      {
+        "rank":1,
+        "name":"Red Bull",
+        "points":460,
+        "pilote1": "Sebastian Vettel",
+        "pilote2": "Mark Webber"
+      },
+      {
+        "rank":3,
+        "name":"McLaren",
+        "points":378,
+        "pilote1": "Lewis Hamilton",
+        "pilote2": "Jenson Button"
+      }
+    ]
+  },
+  {
+    "year": 2013,
+    "ecuries" : [
+      {
+        "rank":2,
+        "name":"Mercedes",
+        "points":360,
+        "pilote1": "Lewis Hamilton",
+        "pilote2": "Nico Rosberg"
+      },
+      {
+        "rank":1,
+        "name":"Red Bull",
+        "points":596,
+        "pilote1": "Sebastian Vettel",
+        "pilote2": "Mark Webber"
+      },
+      {
+        "rank":3,
+        "name":"Ferrari",
+        "points":354,
+        "pilote1": "Felipe Massa",
+        "pilote2": "Fernando Alonso"
+      }
+    ]
+  },
+  {
+    "year": 2014,
+    "ecuries" : [
+      {
+        "rank":2,
+        "name":"Red Bull",
+        "points":405,
+        "pilote1": "Sebastian Vettel",
+        "pilote2": "Daniel Ricciardo"
+      },
+      {
+        "rank":1,
+        "name":"Mercedes",
+        "points":701,
+        "pilote1": "Lewis Hamilton",
+        "pilote2": "Nico Rosberg"
+      },
+      {
+        "rank":3,
+        "name":"Williams",
+        "points":320,
+        "pilote1": "Felipe Massa",
+        "pilote2": "Valtteri Bottas"
+      }
+    ]
+  },
+  {
+    "year": 2015,
+    "ecuries" : [
+      {
+        "rank":2,
+        "name":"Red Bull",
+        "points":428,
+        "pilote1": "Daniel Ricciardo",
+        "pilote2": "Daniil Kvyat"
+      },
+      {
+        "rank":1,
+        "name":"Mercedes",
+        "points":703,
+        "pilote1": "Lewis Hamilton",
+        "pilote2": "Nico Rosberg"
+      },
+      {
+        "rank":3,
+        "name":"Williams",
+        "points":257,
+        "pilote1": "Felipe Massa",
+        "pilote2": "Valtteri Bottas"
+      }
+    ]
+  },
+  {
+    "year": 2016,
+    "ecuries" : [
+      {
+        "rank":2,
+        "name":"Red Bull",
+        "points":468,
+        "pilote1": "Daniel Ricciardo",
+        "pilote2": "Max Verstappen"
+      },
+      {
+        "rank":1,
+        "name":"Mercedes",
+        "points":765,
+        "pilote1": "Lewis Hamilton",
+        "pilote2": "Nico Rosberg"
+      },
+      {
+        "rank":3,
+        "name":"Ferrari",
+        "points":398,
+        "pilote1": "Sebastian Vettel",
+        "pilote2": "Kimi Räikkönen"
+      }
+    ]
+  },
+  {
+    "year": 2017,
+    "ecuries" : [
+      {
+        "rank":2,
+        "name":"Ferrari",
+        "points":522,
+        "pilote1": "Sebastian Vettel",
+        "pilote2": "Kimi Räikkönen"
+      },
+      {
+        "rank":1,
+        "name":"Mercedes",
+        "points":668,
+        "pilote1": "Lewis Hamilton",
+        "pilote2": "Valtteri Bottas"
+      },
+      {
+        "rank":3,
+        "name":"Red Bull",
+        "points":368,
+        "pilote1": "Daniel Ricciardo",
+        "pilote2": "Max Verstappen"
+      }
+    ]
+  },
+  {
+    "year": 2018,
+    "ecuries" : [
+      {
+        "rank":2,
+        "name":"Ferrari",
+        "points":571,
+        "pilote1": "Sebastian Vettel",
+        "pilote2": "Kimi Räikkönen"
+      },
+      {
+        "rank":1,
+        "name":"Mercedes",
+        "points":655,
+        "pilote1": "Lewis Hamilton",
+        "pilote2": "Valtteri Bottas"
+      } ,
+      {
+        "rank":3,
+        "name":"Red Bull",
+        "points":419,
+        "pilote1": "Daniel Ricciardo",
+        "pilote2": "Max Verstappen"
+      }
+    ]
+  },
+  {
+    "year": 2019,
+    "ecuries" : [
+      {
+        "rank":2,
+        "name":"Ferrari",
+        "points": 504,
+        "pilote1": "Sebastian Vettel",
+        "pilote2": "Charles Leclerc"
+      },
+      {
+        "rank":1,
+        "name":"Mercedes",
+        "points":739,
+        "pilote1": "Lewis Hamilton",
+        "pilote2": "Valtteri Bottas"
+      } ,
+      {
+        "rank":3,
+        "name":"Red Bull",
+        "points": 417,
+        "pilote1": "Max Verstappen",
+        "pilote2": "Alexander Albon"
+      }
+    ]
+  },
+  {
+    "year": 2020,
+    "ecuries" : [
+      {
+        "rank":2,
+        "name":"Red Bull",
+        "points":319,
+        "pilote1": "Max Verstappen",
+        "pilote2": "Alexander Albon"
+      },
+      {
+        "rank":1,
+        "name":"Mercedes",
+        "points":573,
+        "pilote1": "Lewis Hamilton",
+        "pilote2": "Valtteri Bottas"
+      } ,
+      {
+        "rank":3,
+        "name":"McLaren",
+        "points":202,
+        "pilote1": "Carlos Sainz Jr.",
+        "pilote2": "Lando Norris"
+      }
+    ]
+  },
+  {
+    "year": 2021,
+    "ecuries" : [
+      {
+        "rank":2,
+        "name":"Red Bull",
+        "points":585,
+        "pilote1": "Max Verstappen",
+        "pilote2": "Sergio Pérez"
+      },
+      {
+        "rank":1,
+        "name":"Mercedes",
+        "points":613,
+        "pilote1": "Lewis Hamilton",
+        "pilote2": "Valtteri Bottas"
+      } ,
+      {
+        "rank":3,
+        "name":"Ferrari",
+        "points":323,
+        "pilote1": "Charles Leclerc",
+        "pilote2": "Carlos Sainz Jr."
+      }
+    ]
+  },
+  {
+    "year": 2022,
+    "ecuries" : [
+      {
+        "rank":2,
+        "name":"Ferrari",
+        "points":554,
+        "pilote1": "Charles Leclerc",
+        "pilote2": "Carlos Sainz Jr."
+      },
+      {
+        "rank":1,
+        "name":"Red Bull",
+        "points":759,
+        "pilote1": "Max Verstappen",
+        "pilote2": "Sergio Pérez"
+      } ,
+      {
+        "rank":3,
+        "name":"Mercedes",
+        "points":515,
+        "pilote1": "Lewis Hamilton",
+        "pilote2": "George Russell"
+      }
+    ]
+  }
+]

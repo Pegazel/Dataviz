@@ -1,0 +1,320 @@
+*,
+*::before,
+*::after {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/Maquette.png);
+    background-size: cover;
+    font-family: 'Montserrat',sans-serif;
+    overflow-x: hidden;
+}
+
+header{
+    text-align: center;
+}
+
+.depart {
+    position: relative;
+    width: 100%;
+    height: 350px;
+}
+
+#barre {
+    background-color: black;
+    border-radius: 9px;
+    height: 36px;
+    width: 48%;
+    position: absolute;
+    top: 16%;
+    left: 51%;
+    transform: translate(-50%, 50%);
+}
+
+.feu {
+    background-color: black;
+    border-radius: 9px;
+    width: 6%;
+    min-width: 70px;
+    height: 83%;
+    position: absolute;
+    top: 17%;
+}
+
+    .feux .f1 {
+        left: 29%;
+    }
+
+    .feux .f2 {
+        left: 38.3%;
+    }
+
+    .feux .f3 {
+        left: 47.5%;
+    }
+
+    .feux .f4 {
+        left: 56.5%;
+    }
+
+    .feux .f5 {
+        left: 65.7%;
+    }
+
+.rond {
+    width:58px;
+    height:58px;
+    background:#FF0000;
+    border-radius: 50%;
+    position: absolute;
+}
+
+    .r1 {
+        top: 37%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+    }
+
+    .r2 {
+        top: 63%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+    }
+
+h1{
+    font-family: 'Audiowide', sans-serif;
+    margin-top: 5%;
+    font-size: 4.5rem;
+}
+
+.son{
+    width: 30px;
+}
+
+#startAnimation{
+    position: absolute; 
+    bottom: 10px; 
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: #FDFAF5;
+    border: #101010 3px solid;
+
+}
+
+#startAnimation:hover{
+    /* background-color: #ffffff64; */
+    transition: 0.3s ease-in-out;
+    transform: scale(1.2);
+    
+}
+
+.drapeau{
+    margin-top: 5%;
+    width: 102px;
+    height: 700px;
+}
+
+
+main{
+    margin: auto;
+    width: 90%;
+    margin-top: 5%;
+}
+
+p {
+    margin: auto;
+    width: 70%;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+ul {
+    font-size: 1.2rem;
+    margin-left: 20%;
+    margin-bottom: 3px;
+}
+
+.boutton{
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+button{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: #fdfaf5;
+    border: none;   
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover{
+    text-decoration: underline;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.data {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.info {
+    width: 40%;
+    display: grid;
+    grid-template-columns: 130px auto 20%;  
+}
+
+#piloteImg {
+    width: 130px;
+}
+
+#logoImg {
+    width: 75%;
+}
+
+
+h3 {
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.info p {
+    width: 85%;
+}
+
+.bar-text {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.bar-text, .name-text {
+    font-weight: 700;
+}
+
+.f1Img {
+    width: 40%;
+}
+
+
+.graphiques {
+    position: relative;
+    vertical-align:baseline;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.graphiques div{
+    text-align: center;
+}
+
+
+/* Navigation graphique*/
+.arrow {
+    width: 15px;
+    height: 15px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    transform: rotate(-45deg);
+    position: relative;
+    left: 2px;
+    float: left;
+}
+
+#next{
+    transform: rotate(180deg);
+}
+
+.sr-only {
+    position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    top: auto;
+    overflow: hidden;
+}
+
+#currentYear {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+
+.explication {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+
+footer{
+    background-color: #101010;
+    height: 50px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 15px;
+    font-weight: 500;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+/* PAGE MENTIONS LEGALES */
+
+h1 {
+    margin-left: 5%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#retour{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 700;
+    position: absolute;
+    top: 25px;
+}
+
+#retour:hover {
+    text-decoration: underline;
+}
+
+.mention{
+    margin-left: 10%;
+}
+
+.credit-photo{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.liste{
+    font-size: 0.9rem;
+}

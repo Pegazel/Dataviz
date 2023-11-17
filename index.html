@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <script src="./lib/d3.js"></script>
+    <script src="./lib/gsap.min.js"></script>
+    <script src="./donnee.js"></script>
+    <script defer src="./script.js"></script>
+ 
+    <title>DataF1</title>
+</head>
+<body>
+    <header>
+        <div class="depart">
+            <div id="barre"></div>
+            <div class="feux">
+                <div class="feu f1">
+                    <div class="rond r1 f11"></div>
+                    <div class="rond r2 f11"></div>
+                </div>
+                <div class="feu f2">
+                    <div class="rond r1 f22"></div>
+                    <div class="rond r2 f22"></div>
+                </div>
+                <div class="feu f3">
+                    <div class="rond r1 f33"></div>
+                    <div class="rond r2 f33"></div>
+                </div>
+                <div class="feu f4">
+                    <div class="rond r1 f44"></div>
+                    <div class="rond r2 f44"></div>
+                </div>
+                <div class="feu f5">
+                    <div class="rond r1 f55"></div>
+                    <div class="rond r2 f55"></div>
+                </div>
+            </div>            
+        </div>
+        <h1>Lights out <br> and away we go</h1>
+        <button id="startAnimation"><img class="son" src="images/sonOff.png" alt=""></button>
+        <img class="drapeau"  src="images/drapeau.png" alt="">
+    </header>    
+    <main>
+        <audio id="f1Sound" src="images/F1.mp3"></audio>
+        <section class="present">
+            <p>Bienvenue sur DataF1, un projet étudiant qui va vous permettre de découvrirez l’évolution du championnat de Formule 1 depuis les années 2000. À travers les années, vous pourrez voir les podiums des pilotes et des écuries, et les informations qui les concernent, comme le nombre de points gagnés ou les Grands Prix gagnés. 
+            </p>
+            <p>Ce projet a été réalisé par deux étudiantes de BUT Métiers du multimédia et de l’internet. Pour mieux visualiser les données, vous pouvez cliquer sur une place et découvrir plus d’information sur le pilote.  On vous souhaite une bonne visite!</p>
+        </section>
+        
+        <div class="boutton">
+        <button id="pilotes" class="active">Pilotes</button>
+        <button id="teams">Écuries</button>
+        </div>
+    
+        <section class="data">
+            <div class="graphiques">
+                <svg width="600" height="500"></svg>
+                <div>
+                    <button onclick="changeYear(-1)" id="prev"><span class="arrow"></span><span class="sr-only">Année précédente</span></button>
+                    <span id="currentYear"></span>
+                    <button onclick="changeYear(1)" id="next"><span class="arrow"></span><span class="sr-only">Année suivante</span></button>
+                </div>
+            </div>
+            <div class="info"></div>
+        </section>
+
+        <section class="explication">
+            <h3>Explication des points</h3>
+            <p>Le système de points en Formule 1 a subit plusieurs fois des changements notamment en 2010. Depuis ce moment, dans chaque course des points sont attribués aux dix premiers, avec une répartition spécifique selon leur position. En dessous de la dixième place, les pilotes ne remportent pas de points. Les points sont distribués ainsi :</p>
+            <ul>
+                <li>Le premier 25 points</li>
+
+                <li>Le 2ème 18 points</li>
+                    
+                <li>Le 3ème 15 points</li>
+                    
+                <li>Le 4ème 12 points</li>
+                    
+                <li>Le 5ème 10 points</li>
+                    
+                <li>Le 6ème 8 points</li>
+                    
+                <li>Le 7ème 6 points</li>
+                    
+                <li>Le 8ème 4 points</li>
+                    
+                <li>Le 9ème 2 points</li>
+                    
+                <li>Et le 10ème 1 points</li>
+            </ul>
+            <br>
+            <p>De plus, si le pilote qui fait le meilleur tour de la course termine dans les dix premiers alors il gagne un point bonus, qui peut être décisif dans le classement du championnat.</p>
+            <p>Et depuis la saison de 2021, une course sprint a été ajouté lors de certains Grand Prix, ce qui permet aux différentes écuries et pilotes de remporter des points supplémentaires. Lors de ces courses, les points sont attribués différemment des courses normales, c’est à dire 8 points pour le premier, 7 pour le deuxième, 6 pour le troisième et ainsi de suite.</p>
+            <p>Pour les écuries, c'est la même chose ! Mais puisqu'il y a deux pilotes dans chaque écuries, on aditionne leurs points.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <a href="mention.html">Mentions Légales</a>
+    </footer>
+
+</body>
+</html>
