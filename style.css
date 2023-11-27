@@ -11,6 +11,7 @@
 body{
     background-image: url(images/Maquette.png);
     background-size: cover;
+    background-repeat: no-repeat;
     font-family: 'Montserrat',sans-serif;
     overflow-x: hidden;
 }
@@ -259,12 +260,44 @@ h3 {
     font-weight: 700;
 }
 
+/*Popup Hover */
+.InfoHover {
+    padding: 7px; 
+    position: relative;
+}
+
+#Texthover {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    background-color: #000000;
+    color: white;
+    padding: 8px 13px;
+    border-radius: 8px;
+    visibility: hidden;
+}
+
+#Texthover::before {
+    content: "";
+     position: absolute;
+     left: 50%;
+     top: 100%;
+     transform: translateX(-50%);
+     border: 10px solid;
+     border-color: #000 #0000 #0000 #0000;
+}
+
+.InfoHover:hover #Texthover {
+    top: -100px;
+     visibility: visible;
+}
+
 
 .explication {
     margin-top: 30px;
     margin-bottom: 40px;
 }
-
 
 footer{
     background-color: #101010;
